@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="class" catalog="test100" class="Class">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="student100" catalog="test100" class="Student100">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="class100" catalog="test100" class="Class100">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="course200" catalog="test100"
+		class="com.sunny.entity202.Course200">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="student200" catalog="test100"
+		class="com.sunny.entity202.Student200">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="student_course" catalog="test100"
+		class="StudentCourse">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="clazz" catalog="test100"
+		class="com.sunny.entity50.Clazz">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="monitor" catalog="test100"
+		class="com.sunny.entity50.Monitor">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="card" catalog="test100"
+		class="com.sunny.entity51.Card">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+	<table name="student" catalog="test100"
+		class="com.sunny.entity51.Student">
+		<primary-key>
+			<generator class="identity"></generator>
+		</primary-key>
+	</table>
+<table name="t_student_score" catalog="test100" class="com.sunny.entity202.SC">
+	<primary-key>
+		
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
